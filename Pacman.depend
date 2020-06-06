@@ -11,3 +11,21 @@
 
 1591399325 c:\users\oski\desktop\facultad\04 lab 2\pacman\pacman\mapa.h
 
+1591462045 source:c:\users\oski\desktop\facultad\04 lab 2\pacman\pac-man\main.cpp
+	<iostream>
+	<cstdio>
+	<allegro.h>
+	<string>
+	"funciones.h"
+	"pantalla.h"
+	"pacmi.h"
+	"mapa.h"
+
+1591461808 c:\users\oski\desktop\facultad\04 lab 2\pacman\pac-man\funciones.h
+
+1591452256 c:\users\oski\desktop\facultad\04 lab 2\pacman\pac-man\pacmi.h
+
+1591461671 c:\users\oski\desktop\facultad\04 lab 2\pacman\pac-man\mapa.h
+
+1591462050 c:\users\oski\desktop\facultad\04 lab 2\pacman\pac-man\pantalla.h
+

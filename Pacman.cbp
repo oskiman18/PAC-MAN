@@ -32,9 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="funciones.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="mapa.h" />
 		<Unit filename="pacmi.h" />
+		<Unit filename="pantalla.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
