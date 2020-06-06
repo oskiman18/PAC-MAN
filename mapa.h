@@ -30,11 +30,11 @@ void mapa::asignar_bloque(int valor)
 {
     switch (valor)
     {
-        case 1: bloque=("bloque1.bmp",NULL);break;
-        case 2: bloque=("bloque2.bmp",NULL);break;
-        case 3: bloque=("bloque3.bmp",NULL);break;
-        case 4: bloque=("bloque4.bmp",NULL);break;
-        default:bloque=("bloque5.bmp",NULL);break;
+        case 1: bloque=("bloques\bloque1.bmp",NULL);break;
+        case 2: bloque=("bloques\bloque2.bmp",NULL);break;
+        case 3: bloque=("bloques\bloque3.bmp",NULL);break;
+        case 4: bloque=("bloques\bloque4.bmp",NULL);break;
+        default:bloque=("bloques\bloque5.bmp",NULL);break;
 
     }
 

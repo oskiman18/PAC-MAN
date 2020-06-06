@@ -4,6 +4,8 @@
 void inicia_allegro(int ANCHO_ , int ALTO_);
 int inicia_audio(int izquierda, int derecha);
 
+
+
 void inicia_allegro(int ANCHO_ , int ALTO_){
    allegro_init();
    install_keyboard();
@@ -48,7 +50,6 @@ int new_plano1[23][25]={
 
 
 };
-
 
 
 
