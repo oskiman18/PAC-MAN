@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1591314279 source:c:\users\oski\desktop\facultad\04 lab 2\pacman\pacman\main.cpp
+	<iostream>
+	<cstdio>
+	<allegro.h>
+	<string>
+	"pacmi.h"
+	"mapa.h"
+
+1591399447 c:\users\oski\desktop\facultad\04 lab 2\pacman\pacman\pacmi.h
+
+1591399325 c:\users\oski\desktop\facultad\04 lab 2\pacman\pacman\mapa.h
+
