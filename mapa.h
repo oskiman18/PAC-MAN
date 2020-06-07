@@ -2,8 +2,10 @@
 #define MAPA_H_INCLUDED
 
 class mapa{
-private: BITMAP*bloque;
-        int plano[23][25];
+private:
+    BITMAP*bloque;
+    BITMAP*camino;
+    int plano[23][25];
 public:
     void asignar_bloque(int);
     void dibujar_plano(int);
@@ -50,5 +52,23 @@ void mapa::asignar_plano(int plano[COL][FIL],int plano2[COL][FIL])
    }
 }
 
+
+ void mapa::dibujar_mapa()
+    {
+        pacman p;
+        int x,y;
+        for(x=0;x<COL;x++)
+        {
+            for(y=0;y<FIL;y++)
+            {   if(mapa::plano[y][x]==1)
+                 {
+                     draw_sprite(buffer,bloque,x*TAM,y*TAM);
+                 }
+                else  if (mapa::plano[y][x]==0 || mapa::plano[y][x]==5){draw_sprite(buffer,camino,x*TAM,y*TAM);}
+                if ((p.get_py()/TAM == y) && (p.get_px()/TAM == x)) {mapa::plano[y][x] = 3;}
+                 }
+
+            }
+    }
 
 #endif // MAPA_H_INCLUDED

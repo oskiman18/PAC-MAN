@@ -2,22 +2,32 @@
 #include <cstdio>
 #include <allegro.h>
 #include <string>
-const int TAM=32;
-const int COL=23;
-const int FIL=25;
-BITMAP*buffer = create_bitmap(1240,736);
+
+BITMAP*buffer;
+BITMAP*mapa;
 
 using namespace std;
 
+const int TAM=32;
+const int COL=23;
+const int FIL=25;
+
 #include "funciones.h"
-#include "pantalla.h"
 #include "pacmi.h"
 #include "mapa.h"
 
 int main()
+{   pacman p;
+    mapa m;
+    inicia_allegro(1240,736);
+    inicia_audio(70,70);
+    while (game_over())
 {
-cout<<"hola";
-return 0;
+   pantalla();
+    m.dibujar_mapa();
+    readkey();
+   }
+    return 0;
 }
 
-END_OF_MAIN ()
+END_OF_MAIN()

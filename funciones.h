@@ -51,7 +51,25 @@ int new_plano1[23][25]={
 
 };
 
+void pantalla (){
+    buffer = create_bitmap(1240,736);
+    blit(buffer, screen, 0, 0, 0, 0, 1240, 736);
+    }
 
+    bool game_over()
+{
+    int plano=mapa::getPlano();
+        int x,y;
+        for(x=0;x<FIL;x++){
+            for(y=0;y<COL;y++){
+                    if(plano[y][x] == 0){
+                    return true;
+
+                }
+           }    if(key[KEY_ESC]) return false;
+
+        }
+return false;}
 
 
 #endif // FUNCIONES_H_INCLUDED
